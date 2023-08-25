@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #0a2348;
+    color: white;
+}
+
+.contact-nav ul li{
+    display: inline;
+    margin-left: 15px;
+}
+.contact-nav .right .socIcon-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.contact-nav .right .socIcon-wrap .socIcon{
+    padding: 0px 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    transition: .4s all;
+}
+.socIcon-wrap .socIcon a{
+    color: white;
+}
+
+.socIcon-wrap .socIcon:hover{
+    background-color: white;
+}
+.socIcon-wrap .socIcon:hover a{
+    color: #0a2348c2;
+}
+
+#hero-sec{
+    background-image: url(./img/bg\ img.jpg);
+    background-size:cover;
+
+}
+
+.hero-wrap{
+    width: 100%;
+    height: 92vh;
+    background-color: #0a2348be;
+}
+
+.hero-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    
+}
+.hero-nav ul li{
+    display: inline;
+    margin-left: 20px;
+
+    
+    
+}
+.hero-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+    
+}
+.hero-nav ul li a:hover{
+    color: #1898c7;
+}
+
+.hero-nav ul li a{
+    font-size: 20px;
+}
+.hero-nav ul li button{
+    background-color: #1898c7;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+.hero-nav ul li button:hover{
+    background-color:#1db7ef ;
+    color: black;
+    
+}
+.hero-cont{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.hero-cont h1{
+    font-size: 60px;
+    margin: 20px 0px;
+}
+.hero-cont p{
+    font-size: 20px;
+}
+.hero-cont button{
+    background-color: #1db7ef;
+    color: white;
+    border: 1px solid #1db7ef;
+    outline: 0;
+    padding: 20px 50px;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 300ms all;
+    margin: 0px 10px;
+
+}
+.btn-2{
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+
+}
+
+.hero-cont button:hover{
+    background-color: #1898c7;
+}
+.btn-2:hover{
+    background-color: #fff !important;
+    border: #fff 1px solid !important;
+    color: #000 !important;
+}
+
+#card-sec{
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+    margin-top: -70px;
+    box-shadow: 0px 0px 8px black;
+
+}
+
+#card-sec .card{
+    display: flex;
+    justify-content: center;
+    padding: 30px 93px;
+    background-color: #06a3da;
+    align-items: center;
+}
+#card-sec .card-2{
+    background-color: #ffffff;
+}
+
+#card-sec .card i{
+    font-size: 30px;
+    background-color: white;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 2px;
+    color: #06a3da;
+}
+
+#card-sec .card p,
+#card-sec .card h2
+{
+    color: white;
+}
+
+#card-sec .card p{
+    font-size: 18px;
+}
+
+#card-sec .card h2{
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+#card-sec .card-2 p{
+    color: #06a3da;
+}
+
+#card-sec .card-2 h2{
+    color: #0a2348;
+}
+
+#card-sec .card-2 i{
+    color: white;
+    background-color: #06a3da;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+
+#about .left, .right{
+    width: 50%;
+}
+
+#about .right img{
+    width: 90%;
+}
+
+.check-row{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-around;
+}
+
+.check-row div{
+    width: 50%;
+}
+
+.check-row i{
+    color: #06a3da;
+    margin-right: 10px;
+}
+
+.call{
+    display:flex;
+    align-items: center;
+}
+
+.call i{
+    background-color: #06a3da;
+    padding: 20px;
+    border-radius: 2px;
+    color: white;
+    margin-right: 20px;
+}
+
+.call h2{
+    color: #06a3da;
+    margin-top: 7px;
+}
+
+.call p{
+    font-size: 18px;
+}
+
+.quote-btn{
+    background-color: #06a3da;
+    border: 0px;
+    outline: opx;
+    color: white;
+    padding: 20px 45px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.3s all;
+}
+
+.quote-btn:hover{
+    background-color: #1db7ef;
+    color: #000;
+}
+
+.left h4{
+    color: #06a3da;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.left h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0a2348;
+    margin-bottom: 10px;
+}
+
+.left p{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.check-row span,
+.check-row i
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.call{
+    margin-bottom: 20px;
+    margin-top: 2opx;
+}
+
+#choose{
+    margin: 100px 50px;
+}
+
+#choose h4{
+    color: #06a3da;
+}
+
+#choose h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.choose-head{
+    text-align: center;
+}
+
+.choose-row{
+    display: flex;
+    margin-top: 50px;
+}
+
+.choose-row .choose-1,
+.choose-2, .choose-3{
+    width: 33.33%;
+}
+
+.choose-row i{
+    color: #fff;
+    background-color: #06a3da;
+    padding: 20px;
+    border-radius: 2px;
+}
+.choose-2 img{
+    width: 90%;
+}
+
+.mb4{
+    margin-bottom: 30px;
+}
+.choose-row i{
+    margin-bottom: 20px;
+}
+.choose-row h2{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+#services{
+    margin: 100px 50px;
+}
+.services-icon{
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06a3da;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    margin: 0px auto;
+
+}
+.services-icon i{
+    transform: rotate(45deg);
+    color: white;
+}
+.services-row{
+    display: flex;
+}
+.services-card{
+    background-color: #EEF9FF !important;
+    padding: 40px 30px;
+    text-align: center;
+    margin: 0px 10px;
+    width: 33.33%;
+    border-radius: 2px;
+
+}
+.services-card h4{
+    margin-top: 50px;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.services-card p{
+    color: gray;
+}
+.services-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-head h3{
+    color: #06a3da;
+    font-size: 20px;
+}
+.services-head h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.services-row{
+    margin-bottom: 20px;
+}
+.call-quote{
+    background-color: #06a3da !important;
+    color: white !important;
+}
+.call-quote p{
+    color: white !important;
+}
+.call-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.call-quote h1{
+    font-weight: 700;
+}
